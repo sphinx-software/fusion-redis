@@ -1,6 +1,6 @@
 {
   "name": "@sphinx-software/fusion-redis",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Redis binding for fusion",
   "main": "index.js",
   "scripts": {
