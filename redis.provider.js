@@ -8,7 +8,10 @@ exports.register = async (container) => {
         return new Redis(config.redis);
     });
 
+};
 
+
+exports.boot = async (container) => {
     let storageFactory = await container.make('storage.factory');
 
     storageFactory.register('redis', async () => {
